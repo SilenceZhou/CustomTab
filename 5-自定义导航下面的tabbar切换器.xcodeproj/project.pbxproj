@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E87302081BD4E75000BCA3C2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E87302071BD4E75000BCA3C2 /* main.m */; };
+		E873020B1BD4E75000BCA3C2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E873020A1BD4E75000BCA3C2 /* AppDelegate.m */; };
+		E873020E1BD4E75000BCA3C2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E873020D1BD4E75000BCA3C2 /* ViewController.m */; };
+		E87302111BD4E75000BCA3C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E873020F1BD4E75000BCA3C2 /* Main.storyboard */; };
+		E87302131BD4E75100BCA3C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E87302121BD4E75100BCA3C2 /* Assets.xcassets */; };
+		E87302161BD4E75100BCA3C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E87302141BD4E75100BCA3C2 /* LaunchScreen.storyboard */; };
+		E87302211BD4E75100BCA3C2 /* __________tabbar___Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = E87302201BD4E75100BCA3C2 /* __________tabbar___Tests.m */; };
+		E873022C1BD4E75100BCA3C2 /* __________tabbar___UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E873022B1BD4E75100BCA3C2 /* __________tabbar___UITests.m */; };
+		E873023B1BD4E7D400BCA3C2 /* LDSegmentContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = E873023A1BD4E7D400BCA3C2 /* LDSegmentContainer.m */; settings = {ASSET_TAGS = (); }; };
+		E873023E1BD4F40600BCA3C2 /* UIView+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = E873023D1BD4F40600BCA3C2 /* UIView+Common.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E873021D1BD4E75100BCA3C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E87301FB1BD4E75000BCA3C2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E87302021BD4E75000BCA3C2;
+			remoteInfo = "5-自定义导航下面的tabbar切换器";
+		};
+		E87302281BD4E75100BCA3C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E87301FB1BD4E75000BCA3C2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E87302021BD4E75000BCA3C2;
+			remoteInfo = "5-自定义导航下面的tabbar切换器";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E87302031BD4E75000BCA3C2 /* 5-自定义导航下面的tabbar切换器.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "5-自定义导航下面的tabbar切换器.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E87302071BD4E75000BCA3C2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E87302091BD4E75000BCA3C2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E873020A1BD4E75000BCA3C2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E873020C1BD4E75000BCA3C2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E873020D1BD4E75000BCA3C2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E87302101BD4E75000BCA3C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E87302121BD4E75100BCA3C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E87302151BD4E75100BCA3C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E87302171BD4E75100BCA3C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E873021C1BD4E75100BCA3C2 /* 5-自定义导航下面的tabbar切换器Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "5-自定义导航下面的tabbar切换器Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E87302201BD4E75100BCA3C2 /* __________tabbar___Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "__________tabbar___Tests.m"; sourceTree = "<group>"; };
+		E87302221BD4E75100BCA3C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E87302271BD4E75100BCA3C2 /* 5-自定义导航下面的tabbar切换器UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "5-自定义导航下面的tabbar切换器UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E873022B1BD4E75100BCA3C2 /* __________tabbar___UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "__________tabbar___UITests.m"; sourceTree = "<group>"; };
+		E873022D1BD4E75100BCA3C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E87302391BD4E7D400BCA3C2 /* LDSegmentContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDSegmentContainer.h; sourceTree = "<group>"; };
+		E873023A1BD4E7D400BCA3C2 /* LDSegmentContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDSegmentContainer.m; sourceTree = "<group>"; };
+		E873023C1BD4F40600BCA3C2 /* UIView+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Common.h"; sourceTree = "<group>"; };
+		E873023D1BD4F40600BCA3C2 /* UIView+Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Common.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E87302001BD4E75000BCA3C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E87302191BD4E75100BCA3C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E87302241BD4E75100BCA3C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E87301FA1BD4E75000BCA3C2 = {
+			isa = PBXGroup;
+			children = (
+				E87302051BD4E75000BCA3C2 /* 5-自定义导航下面的tabbar切换器 */,
+				E873021F1BD4E75100BCA3C2 /* 5-自定义导航下面的tabbar切换器Tests */,
+				E873022A1BD4E75100BCA3C2 /* 5-自定义导航下面的tabbar切换器UITests */,
+				E87302041BD4E75000BCA3C2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E87302041BD4E75000BCA3C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E87302031BD4E75000BCA3C2 /* 5-自定义导航下面的tabbar切换器.app */,
+				E873021C1BD4E75100BCA3C2 /* 5-自定义导航下面的tabbar切换器Tests.xctest */,
+				E87302271BD4E75100BCA3C2 /* 5-自定义导航下面的tabbar切换器UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E87302051BD4E75000BCA3C2 /* 5-自定义导航下面的tabbar切换器 */ = {
+			isa = PBXGroup;
+			children = (
+				E87302091BD4E75000BCA3C2 /* AppDelegate.h */,
+				E873020A1BD4E75000BCA3C2 /* AppDelegate.m */,
+				E873020C1BD4E75000BCA3C2 /* ViewController.h */,
+				E873020D1BD4E75000BCA3C2 /* ViewController.m */,
+				E873023C1BD4F40600BCA3C2 /* UIView+Common.h */,
+				E873023D1BD4F40600BCA3C2 /* UIView+Common.m */,
+				E87302391BD4E7D400BCA3C2 /* LDSegmentContainer.h */,
+				E873023A1BD4E7D400BCA3C2 /* LDSegmentContainer.m */,
+				E873020F1BD4E75000BCA3C2 /* Main.storyboard */,
+				E87302121BD4E75100BCA3C2 /* Assets.xcassets */,
+				E87302141BD4E75100BCA3C2 /* LaunchScreen.storyboard */,
+				E87302171BD4E75100BCA3C2 /* Info.plist */,
+				E87302061BD4E75000BCA3C2 /* Supporting Files */,
+			);
+			path = "5-自定义导航下面的tabbar切换器";
+			sourceTree = "<group>";
+		};
+		E87302061BD4E75000BCA3C2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E87302071BD4E75000BCA3C2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E873021F1BD4E75100BCA3C2 /* 5-自定义导航下面的tabbar切换器Tests */ = {
+			isa = PBXGroup;
+			children = (
+				E87302201BD4E75100BCA3C2 /* __________tabbar___Tests.m */,
+				E87302221BD4E75100BCA3C2 /* Info.plist */,
+			);
+			path = "5-自定义导航下面的tabbar切换器Tests";
+			sourceTree = "<group>";
+		};
+		E873022A1BD4E75100BCA3C2 /* 5-自定义导航下面的tabbar切换器UITests */ = {
+			isa = PBXGroup;
+			children = (
+				E873022B1BD4E75100BCA3C2 /* __________tabbar___UITests.m */,
+				E873022D1BD4E75100BCA3C2 /* Info.plist */,
+			);
+			path = "5-自定义导航下面的tabbar切换器UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E87302021BD4E75000BCA3C2 /* 5-自定义导航下面的tabbar切换器 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E87302301BD4E75100BCA3C2 /* Build configuration list for PBXNativeTarget "5-自定义导航下面的tabbar切换器" */;
+			buildPhases = (
+				E87301FF1BD4E75000BCA3C2 /* Sources */,
+				E87302001BD4E75000BCA3C2 /* Frameworks */,
+				E87302011BD4E75000BCA3C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "5-自定义导航下面的tabbar切换器";
+			productName = "5-自定义导航下面的tabbar切换器";
+			productReference = E87302031BD4E75000BCA3C2 /* 5-自定义导航下面的tabbar切换器.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E873021B1BD4E75100BCA3C2 /* 5-自定义导航下面的tabbar切换器Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E87302331BD4E75100BCA3C2 /* Build configuration list for PBXNativeTarget "5-自定义导航下面的tabbar切换器Tests" */;
+			buildPhases = (
+				E87302181BD4E75100BCA3C2 /* Sources */,
+				E87302191BD4E75100BCA3C2 /* Frameworks */,
+				E873021A1BD4E75100BCA3C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E873021E1BD4E75100BCA3C2 /* PBXTargetDependency */,
+			);
+			name = "5-自定义导航下面的tabbar切换器Tests";
+			productName = "5-自定义导航下面的tabbar切换器Tests";
+			productReference = E873021C1BD4E75100BCA3C2 /* 5-自定义导航下面的tabbar切换器Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E87302261BD4E75100BCA3C2 /* 5-自定义导航下面的tabbar切换器UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E87302361BD4E75100BCA3C2 /* Build configuration list for PBXNativeTarget "5-自定义导航下面的tabbar切换器UITests" */;
+			buildPhases = (
+				E87302231BD4E75100BCA3C2 /* Sources */,
+				E87302241BD4E75100BCA3C2 /* Frameworks */,
+				E87302251BD4E75100BCA3C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E87302291BD4E75100BCA3C2 /* PBXTargetDependency */,
+			);
+			name = "5-自定义导航下面的tabbar切换器UITests";
+			productName = "5-自定义导航下面的tabbar切换器UITests";
+			productReference = E87302271BD4E75100BCA3C2 /* 5-自定义导航下面的tabbar切换器UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E87301FB1BD4E75000BCA3C2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = silence;
+				TargetAttributes = {
+					E87302021BD4E75000BCA3C2 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					E873021B1BD4E75100BCA3C2 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = E87302021BD4E75000BCA3C2;
+					};
+					E87302261BD4E75100BCA3C2 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = E87302021BD4E75000BCA3C2;
+					};
+				};
+			};
+			buildConfigurationList = E87301FE1BD4E75000BCA3C2 /* Build configuration list for PBXProject "5-自定义导航下面的tabbar切换器" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E87301FA1BD4E75000BCA3C2;
+			productRefGroup = E87302041BD4E75000BCA3C2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E87302021BD4E75000BCA3C2 /* 5-自定义导航下面的tabbar切换器 */,
+				E873021B1BD4E75100BCA3C2 /* 5-自定义导航下面的tabbar切换器Tests */,
+				E87302261BD4E75100BCA3C2 /* 5-自定义导航下面的tabbar切换器UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E87302011BD4E75000BCA3C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E87302161BD4E75100BCA3C2 /* LaunchScreen.storyboard in Resources */,
+				E87302131BD4E75100BCA3C2 /* Assets.xcassets in Resources */,
+				E87302111BD4E75000BCA3C2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E873021A1BD4E75100BCA3C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E87302251BD4E75100BCA3C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E87301FF1BD4E75000BCA3C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E873020E1BD4E75000BCA3C2 /* ViewController.m in Sources */,
+				E873023E1BD4F40600BCA3C2 /* UIView+Common.m in Sources */,
+				E873023B1BD4E7D400BCA3C2 /* LDSegmentContainer.m in Sources */,
+				E873020B1BD4E75000BCA3C2 /* AppDelegate.m in Sources */,
+				E87302081BD4E75000BCA3C2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E87302181BD4E75100BCA3C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E87302211BD4E75100BCA3C2 /* __________tabbar___Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E87302231BD4E75100BCA3C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E873022C1BD4E75100BCA3C2 /* __________tabbar___UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E873021E1BD4E75100BCA3C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E87302021BD4E75000BCA3C2 /* 5-自定义导航下面的tabbar切换器 */;
+			targetProxy = E873021D1BD4E75100BCA3C2 /* PBXContainerItemProxy */;
+		};
+		E87302291BD4E75100BCA3C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E87302021BD4E75000BCA3C2 /* 5-自定义导航下面的tabbar切换器 */;
+			targetProxy = E87302281BD4E75100BCA3C2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E873020F1BD4E75000BCA3C2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E87302101BD4E75000BCA3C2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E87302141BD4E75100BCA3C2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E87302151BD4E75100BCA3C2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E873022E1BD4E75100BCA3C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E873022F1BD4E75100BCA3C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E87302311BD4E75100BCA3C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "5-自定义导航下面的tabbar切换器/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "silence.com.----------tabbar---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E87302321BD4E75100BCA3C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "5-自定义导航下面的tabbar切换器/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "silence.com.----------tabbar---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E87302341BD4E75100BCA3C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "5-自定义导航下面的tabbar切换器Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "silence.com.----------tabbar---Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/5-自定义导航下面的tabbar切换器.app/5-自定义导航下面的tabbar切换器";
+			};
+			name = Debug;
+		};
+		E87302351BD4E75100BCA3C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "5-自定义导航下面的tabbar切换器Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "silence.com.----------tabbar---Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/5-自定义导航下面的tabbar切换器.app/5-自定义导航下面的tabbar切换器";
+			};
+			name = Release;
+		};
+		E87302371BD4E75100BCA3C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "5-自定义导航下面的tabbar切换器UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "silence.com.----------tabbar---UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "5-自定义导航下面的tabbar切换器";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		E87302381BD4E75100BCA3C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "5-自定义导航下面的tabbar切换器UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "silence.com.----------tabbar---UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "5-自定义导航下面的tabbar切换器";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E87301FE1BD4E75000BCA3C2 /* Build configuration list for PBXProject "5-自定义导航下面的tabbar切换器" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E873022E1BD4E75100BCA3C2 /* Debug */,
+				E873022F1BD4E75100BCA3C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E87302301BD4E75100BCA3C2 /* Build configuration list for PBXNativeTarget "5-自定义导航下面的tabbar切换器" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E87302311BD4E75100BCA3C2 /* Debug */,
+				E87302321BD4E75100BCA3C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E87302331BD4E75100BCA3C2 /* Build configuration list for PBXNativeTarget "5-自定义导航下面的tabbar切换器Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E87302341BD4E75100BCA3C2 /* Debug */,
+				E87302351BD4E75100BCA3C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E87302361BD4E75100BCA3C2 /* Build configuration list for PBXNativeTarget "5-自定义导航下面的tabbar切换器UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E87302371BD4E75100BCA3C2 /* Debug */,
+				E87302381BD4E75100BCA3C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E87301FB1BD4E75000BCA3C2 /* Project object */;
+}
